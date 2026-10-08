@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local application data
+*.db
+
+# Machine-learning datasets, weights, and generated experiment artifacts
+data/
+dataset/
+dataset_det/
+runs/
+runs_det/
+weights/
+best.pt/
+*.pt
+
+# Notebook checkpoints
+.ipynb_checkpoints/
