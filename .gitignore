@@ -7,15 +7,14 @@ venv/
 # Local application data
 *.db
 
-# Machine-learning datasets, weights, and generated experiment artifacts
-data/
-dataset/
-dataset_det/
-runs/
-runs_det/
-weights/
-best.pt/
+# Standalone downloaded base weights (the app uses tracked project weights)
 *.pt
+!best.pt/
+!best.pt/*.pt
+!weights/
+!weights/*.pt
+!runs_det/**/weights/
+!runs_det/**/weights/*.pt
 
 # Notebook checkpoints
 .ipynb_checkpoints/
